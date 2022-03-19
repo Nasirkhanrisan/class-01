@@ -1,0 +1,139 @@
+/* **********************
+Normalize CSS
+*********************** */
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+
+}
+
+.clearfix {
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #fff;
+    color: #000;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+/*********************
+Navbar CSS
+ **********************/
+.navber {
+    background: #00132A;
+    position: fixed;
+    top: 0;
+  left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navber .nav-inner{
+    padding: 10px 40px;
+}
+
+/* .navber-right {} */
+
+.navber-right ul {
+    list-style: none;
+}
+
+.navber-right ul li {
+    display: inline-block;
+}
+
+.navber-right ul li a.active {
+    border-bottom: 3px solid red;
+}
+
+.btn-portfolios {
+    position: relative;
+}
+
+.btn-portfolios .portfolio-count {
+    position: absolute;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    right: -4px;
+    top: -4px;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+/**********************
+Header / Banar CSS
+ *********************/
+.header-banar{
+    background-image: url(../images/banar.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.banar-tex{
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+    right: 20%;
+    color: #FB6435;
+}
+.banar-tex h2{
+   font-size: 3rem;
+   margin: 0;
+   padding: 0;
+}
+.banar-tex p{
+   font-size: 1.2rem;
+}
+.header-social{
+    padding-top: 50px;
+    text-align: center;
+}
+.header-social a{
+    margin-right: 5px;
+    color: #fff;
+    padding: 7px 18px;
+    border-radius: 15%;
+}
+.header-social a.facebook{
+    background-color: #1095F4;
+}
+.header-social a.twitter{
+    background-color: #1D9BF0;
+}
+.header-social a.youtube{
+    background-color: #FF0000;
+}
+/********************* 
+ Content CSS
+**********************/
